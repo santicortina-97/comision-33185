@@ -46,45 +46,6 @@ header nav ul li a{
     font-size: 18px;
 }
 
-.enlaceInicio:hover{
-    border-bottom: solid;
-    border-width: 2px 4px;
-    border-radius: 30px;
-}
-
-.enlaceInicio{
-    transition-duration: 1s; 
-}
-
-.enlaceAnimal:hover{
-    border-bottom: solid;
-    border-width: 2px 4px;
-    border-radius: 30px;
-}
-
-.enlaceAnimal{
-    transition-duration: 1s; 
-}
-
-.enlaceContacto:hover{
-    border-bottom: solid;
-    border-width: 2px 4px;
-    border-radius: 30px;
-}
-
-.enlaceContacto{
-    transition-duration: 1s; 
-}
-
-.enlaceRedes:hover{
-    border-bottom: solid;
-    border-width: 2px 4px;
-    border-radius: 30px;
-}
-
-.enlaceRedes{
-    transition-duration: 1s; 
-}
 
 
 /*main páginas felinos*/
