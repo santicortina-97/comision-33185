@@ -46,8 +46,6 @@ header nav ul li a{
     font-size: 18px;
 }
 
-
-
 /*main páginas felinos*/
 
 main section ul{
@@ -61,7 +59,7 @@ main section ul li{
 
 main section ul li a{
     color: rgb(88, 139, 139);
-    text-decoration: none;       
+    text-decoration: none;
 }
 
 .tiposAnimales:hover{
