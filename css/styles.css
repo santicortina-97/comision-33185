@@ -5,24 +5,19 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Roboto Condensed', sans-serif;    
 }
 
 
 /*--------------HEADER--------------*/
 
 body{
-    font-family: 'Roboto Condensed', sans-serif;
     background-color: #fbfde1;
 }
 
 header{
     background-color: #b5b88a;
-    width: 100%;
     border-bottom: 2px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 
 header img{
@@ -30,14 +25,17 @@ header img{
         width: 200px;  
         /*alto*/
         height: 80px;
-        margin-left: 50px;
+        margin: 0px 40px 0px 50px;
 }
 
-header nav ul{
-    list-style: none;
-    display: flex;
+header nav form .boton{
+    border: 1px solid black;
+    transition: 0.5s;
 }
 
+header nav form .boton:hover{
+    background-color: #818355;
+}
 
 
 header nav ul li a{
@@ -45,6 +43,7 @@ header nav ul li a{
     color: black;
     font-weight: bold;
     padding: 10px;
+    font-size: 18px;
 }
 
 .enlaceInicio:hover{
@@ -123,6 +122,7 @@ main section h2{
     text-align: center;
     padding: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .hero{
@@ -189,26 +189,6 @@ main section h2{
 
 
 
-/*section (contacto)*/
-
-.contacto h3{
-    text-align: center;
-}
-
-.contacto{
-    padding: 15px;
-    border: 1px solid black;
-    width: 250px;
-    height: 270px;
-
-}
-
-input[type="submit"] {
-    background-color: #90925f;
-    color: black;
-    width: 100%;
-}
-
 
 /*section (nosotros)*/
 
@@ -219,11 +199,14 @@ input[type="submit"] {
     flex-wrap: wrap;
 }
 
+.nosotros h2{
+    margin-bottom: 0;
+}
 .nosotros div img{
         /*ancho*/
-        width: 50px;  
+        width: 80px;  
         /*alto*/
-        height: 50px;
+        height: 80px;
         padding: 10px;
 }
 
@@ -232,12 +215,15 @@ input[type="submit"] {
 
 footer{
     background-color: #b5b88a;
+    border: 1px solid black;
+    bottom: 0;
+    width: 100%;
 }
 
 footer h2{
     text-align: center;
-}
 
+}
 
 
 
@@ -251,13 +237,10 @@ footer h2{
 }
 
 .imgLeon img{
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 300px;
     margin: 10px;
 }
-
-
-
 
 
 
@@ -266,11 +249,6 @@ footer h2{
     padding: 20px 30px;
     margin-bottom: 15px;
 }
-
-
-
-
-
 
 
 
@@ -337,7 +315,6 @@ footer h2{
     grid-auto-rows: 300px;
     gap: 20px;
     padding: 20px;
-
 }
 
 .gridGaleria div img{
@@ -399,7 +376,6 @@ footer h2{
         width: 90%;
         margin: 5px;
     }
-
 }
 
 @media screen and (max-width:350px){
@@ -410,5 +386,4 @@ footer h2{
     header nav ul li{
         margin: 5px;
     }
-
 }
