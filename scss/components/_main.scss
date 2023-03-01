@@ -27,6 +27,15 @@ main{
 
 main{
     section{
+        h1{
+            margin-top: 30px;    
+            font-size: 35px;
+            color: nth($colores, 1);
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
         h2{
             margin-top: 30px;    
             font-size: 35px;
@@ -42,7 +51,7 @@ main{
 main .hero{
     text-align: center;
     margin-top: 20px;
-    padding: 20px 20px;
+    padding: 40px;
     img{
         padding: 20px;
         width: 60%;
